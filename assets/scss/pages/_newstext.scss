@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.newsbox {
+    
+    margin-bottom: 20px;
+  }
+  
+  .boxproducts {
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(39, 38, 38, 0.1) /* Optional: Add a subtle shadow to the image */
+  }
+  
+  .boxproducts img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  
+  .boxproducts h1 {
+    font-size: 20px;
+        margin-top: 20px;
+        color: #3DB554;
+        margin-bottom: 30px;
+  }
+  
+  .boxproducts p {
+    margin-bottom: 20px;
+    color: grey;
+  }
+  
+  .boxproducts button {
+        
+    padding: 10px 10px 10px 10px;
+    border: none;
+    border-radius: 30px;
+    background-color: #3DB554;
+    box-shadow: 0 0 5px #3DB554, 0 0 25px #3DB554;
+
+    color: white;
+    font-weight: 500;
+    font-size: 13px;
+
+}
+    .boxproducts button:hover {
+    box-shadow: 0 0 5px #3DB554, 0 0 25px #3DB554;
+    transition: 0.2s;
+}
+  

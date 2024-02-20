@@ -1,0 +1,36 @@
+{
+    "posts": [
+      {
+        "id": 1,       
+        "title": "Philips 10BDL4551T",
+        "question": "Discover a new level of interaction with 10″ multi-touch display, powered by Android. LED bars for MeetingRoomApp.",       
+        "imageUrl": "https://cdn.meetingroomapp.com/website/uploads/2017/05/device-philips-1.png",
+        "text": "Specifications"
+        
+        },
+        {
+        "id": 2,      
+        "title": "Samsung Galaxy",
+        "question": "New generation of multi-function display with Android 8.1",       
+        "imageUrl": "https://cdn.meetingroomapp.com/website/uploads/2019/10/07182424/device-philips-10BDL4151T-1.png",
+        "text": "Specifications"
+        },
+        {
+          "id": 3,      
+          "title": "Qbic TD-1050 PRO",
+          "question": "The 10.1″ Touch Panel PC is designed to serve as an all-round informative display which can be mounted on any surface.",       
+          "imageUrl": "https://cdn.meetingroomapp.com/website/uploads/2017/05/device-qbic-1.png",
+          "text": "Specifications"
+          
+        },
+        {
+          "id": 4,      
+          "title": "Apple iPad",
+          "question": "Pad has always been unique in its simplicity that carries you away. Now you can combine it with the right accessories to make a lasting impression.",       
+          "imageUrl": "https://cdn.meetingroomapp.com/website/uploads/2017/05/device-ipad-1.png",
+          "text": "Specifications"
+          }
+        
+    ]
+  }
+

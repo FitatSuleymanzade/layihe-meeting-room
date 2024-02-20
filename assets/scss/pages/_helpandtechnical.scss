@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#accordionFAQ{
+    width: 100%;
+    .container {
+        background-color: #ffffff; /* Set your desired container background color */
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(39, 38, 38, 0.1); /* Optional: Add a subtle shadow */
+        h3{
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+           
+        }
+    }
+    
+    .accordion {
+        margin-bottom: 20px;
+    }
+    
+    /* Optional: Style the accordion headers and body */
+    .accordion-button {
+        background-color:#3DB554; /* Set your desired button background color */
+        color: #ffffff; /* Set your desired button text color */
+    }
+    
+    .accordion-body {
+        background-color: #f8f9fa; /* Set your desired body background color */
+        color: #333333; /* Set your desired body text color */
+    }
+    
+    /* Style the image */
+    .img-fluid {
+        border-radius: 8px; /* Optional: Add a border-radius to the image */
+        box-shadow: 0 0 10px rgba(39, 38, 38, 0.1) /* Optional: Add a subtle shadow to the image */
+    }
+}
+

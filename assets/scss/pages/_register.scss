@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    width: 100%;
+    .collapseDiv {
+        ul {
+            margin: auto;
+            justify-content: space-between;
+            gap: 10px;
+            font-size: 16px;
+            font-weight: 600;
+
+        }
+
+    }
+}
+
+
+
+
+
+#regSec {
+    width: 100%;
+    height: 610px;
+    background-image: url(/img/hero-bg.jpg);
+    background-attachment: fixed;
+    max-width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding-top: 10px;
+   
+
+    .container {
+        .row {
+            .regImg {
+                padding-top: 30px;
+                align-items: center;
+                justify-content: center;
+
+                img {
+                    max-width: 100%;
+                    padding-top: 30px;
+
+                }
+
+            }
+
+            #registerForm {
+                background-color: transparent;
+                display: flex;
+                flex-direction: column;
+                padding: 15px;
+                gap: 15px;
+                border-radius: 8px;
+                border: 3px solid rgb(255, 136, 0);
+                
+                margin: auto;
+                transition: transform 0.3s ease, scale 0.3s ease, box-shadow 0.3s ease;
+                backdrop-filter: blur(10px);
+                color: white;
+
+                select {
+                   
+                    outline: none;
+                    padding: 8px;
+                    border-radius: 5px ;
+                    border: 2px solid #3DB554;
+                     background-color: transparent;
+                     color: white;
+                     option{
+                        color: black;
+                     }
+                     
+                }
+
+                input {
+                    padding: 5px;
+                    outline: none;
+                    height: 35px;
+                    width: auto;
+                    border-radius: 5px ;
+                   border: 2px solid  #3DB554;
+                    background-color: transparent;
+                    color: white;
+                    display: flex;
+                    gap: 20px;
+
+                }
+                input[required]::placeholder {
+                    color: white;
+                }
+
+                input[required] {
+                    border-color: #3DB554;
+                }
+            }
+
+            .formbtn {
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+
+                button {
+
+                    padding: 10px 15px 10px 15px;
+                    border: none;
+                    border-radius: 30px;
+                    background-color: #3DB554;
+                    box-shadow: 0 0 25px #3DB554;
+
+                    color: white;
+                    font-weight: 500;
+
+                }
+
+                button:hover {
+                    box-shadow: 0 0 5px #3DB554, 0 0 50px #3DB554;
+                    transition: 0.2s;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

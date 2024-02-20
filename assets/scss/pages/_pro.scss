@@ -1,0 +1,675 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    width: 100%;
+    .collapseDiv {
+        ul {
+            margin: auto;
+            justify-content: space-between;
+            gap: 10px;
+            font-size: 16px;
+            font-weight: 600;
+
+        }
+
+    }
+}
+
+#modernMeeting{
+    width: 100%;
+    height: 400px;
+    background-image: url(/img/product-bg.jpg);
+    background-attachment: fixed;
+   background-size: cover;
+    background-size: cover;
+    
+    .container{
+        .row{
+            .modernMeetingText{
+               padding-top: 30px;
+                h3{
+                    color: white;
+                    padding-top: 30px;
+                    
+                }
+                h5{
+                    color: rgb(189, 189, 189);
+                    padding-top: 20px;
+                    font-weight: 200;
+                }
+                .modernButton{
+                    text-align: center;
+                    padding-top: 30px;
+                    button {
+
+                        padding: 10px 15px 10px 15px;
+                        border: none;
+                        border-radius: 30px;
+                        background-color:  rgb(255, 136, 0);
+                        box-shadow: 0 0 25px  rgb(255, 136, 0);
+    
+                        color: white;
+                        font-weight: 500;
+    
+                    }
+    
+                    button:hover {
+                        box-shadow: 0 0 5px  rgb(255, 136, 0), 0 0 50px rgb(255, 136, 0);
+                        transition: 0.2s;
+                    }
+                }
+            }
+            .modernMeetingImg{
+                padding-top: 30px;
+                img{
+                    padding-top: 30px;
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .row{
+        .modernMeetingImg {
+           img{
+           visibility: hidden !important;
+           }
+          }
+    }
+   
+  }
+
+  @media only screen and (max-width: 345px) {
+    .row{
+        .modernMeetingText {
+           .modernButton{
+            button{
+                visibility: hidden !important;
+            }
+          
+           }
+          }
+    }
+   
+  }
+
+  @media only screen and (max-width: 992px) {
+    .row{
+        .modernMeetingText {
+           .modernButton{
+            visibility: hidden !important;
+           }
+          }
+    }
+   
+  }
+  
+
+#cloudOnprem{
+    width: 100%;
+    .container{
+        .row{
+            .cloudText{
+                text-align: center;
+                padding-top: 30px;
+                h4{
+                    color: #3DB554;
+                    font-weight: 200;
+                    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                }
+            }
+            .cloudLogo{
+                text-align: center;
+                img{
+                    max-width: 30%;
+                    padding: 20px;
+                }
+                h3{
+                    color: #33495C;
+                    font-weight: 700;
+                    padding-bottom: 20px;
+                }
+                p{
+                    color: #33495C;
+                }
+                .divIcon{
+                    padding-top: 20px;
+                  margin: 20px;
+                       justify-content: space-between;
+                    
+                }
+            }
+            .buttonDiv{
+                text-align: center;
+                padding-top: 10px;
+                padding-bottom: 30px;
+                button {
+
+                    padding: 10px 15px 10px 15px;
+                    border: none;
+                    border-radius: 30px;
+                    background-color: #3DB554;
+                    box-shadow: 0 0 25px  #3DB554;
+
+                    color: white;
+                    font-weight: 500;
+
+                }
+
+                button:hover {
+                    box-shadow: 0 0 5px  #3DB554, 0 0 50px #3DB554;
+                    transition: 0.2s;
+                }
+            }
+        }
+    }
+}
+
+
+#basicSmart{
+    width: 100%;
+    padding-top: 30px;
+    .container{
+        .row{
+            .basicSmartText{
+                text-align: center;
+                padding-top: 30px;
+                padding-bottom: 30px;
+                h1{
+                    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                    color:  rgb(255, 136, 0);
+                    font-weight: 200;
+                }
+            }
+            .topFeatures{
+                img{
+                    max-width: 100%;
+                    padding-bottom: 30px;
+                    margin-bottom: 30px;
+                }
+                h3{
+                color: #3DB554;
+                    padding-bottom: 30px;
+                }
+                p{
+                    color: grey;
+                }
+            }
+        }
+    }
+}
+
+
+
+#addHockReservation{
+    width: 100%;
+    .container{
+        .row{
+            .hockReservation{
+                h1{
+                    color: #3DB554;
+                }
+                h3{
+                    color: #3DB554;
+                }
+                p{
+                    color: grey;
+                }
+                .hockText{
+                    display: flex;
+                    gap: 20px;
+                }
+                img{
+                    max-width: 100%;
+                    padding-bottom: 30px;
+                }
+                h4{
+                    color: rgb(255, 136, 0) ;
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+}
+
+
+
+#confirmtionAndFullscreen{
+    width: 100%;
+    .container{
+        .row{
+           .confirmationRow{
+            h1{
+                color: #3DB554;
+            }
+            h3{
+                color: #3DB554;
+            }
+            p{
+                color: grey;
+            }
+          
+            img{
+                max-width: 100%;
+            }
+            h4{
+                padding-bottom: 20px;
+                padding-top: 20px;
+                color: rgb(255, 136, 0);
+                font-weight: 300;
+            }
+           } 
+        }
+    }
+}
+
+
+#roomVayfinder{
+    width: 100%;
+    background-color: #F6F7F8;
+    padding-top: 30px;
+    .container{
+        .row{
+            .vayfinderImg{
+                padding-top: 30px;
+                
+                img{
+                    max-width: 100%;
+                }
+            }
+            .vayfinderText{
+              
+                
+                    h3{
+                        color: #3DB554;
+                        padding-bottom: 20px;
+                    }
+                  
+                
+                p{
+                    color: grey;
+                }
+                    h6{
+                        padding-top: 10px;
+                        color: rgb(255, 136, 0);
+                        font-weight: 200;
+                        padding-bottom: 10px;
+                    }
+                
+            }
+            .vayFinderbtn{
+                
+                padding-top: 25px;
+                padding-bottom: 30px;
+                button {
+
+                    padding: 10px 15px 10px 15px;
+                    border: none;
+                    border-radius: 30px;
+                    background-color: rgb(255, 136, 0);
+                    box-shadow: 0 0 25px  rgb(255, 136, 0);
+
+                    color: white;
+                    font-weight: 500;
+
+                }
+
+                button:hover {
+                    box-shadow: 0 0 5px  rgb(255, 136, 0), 0 0 50px rgb(255, 136, 0);
+                    transition: 0.2s;
+                }
+            }
+        }
+    }
+}
+
+
+
+#flexibleTable{
+    width: 100%;
+    .container{
+        .row{
+            .tableee{
+                padding-top: 30px;
+                h1{
+                    text-align: center;
+                    color:#3DB554;
+                    font-weight: 200;
+                    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                }
+                p{
+                    text-align: center;
+                    color: grey;
+                    padding-bottom: 30px;
+                }
+            }
+
+            .table-bordered{
+th{
+    color: #3DB554;
+    font-weight: 400;
+}
+            }
+        }
+    }
+}
+
+
+
+
+#formSec {
+    width: 100%;
+    background-image: url(/img/help-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+
+    .container {
+        .row {
+            .formrow {
+                text-align: center;
+                padding: 30px;
+
+                h1 {
+                    font-size: 30px;
+                    font-weight: 200;
+                    color: white;
+                }
+
+                h5 {
+                    color: white;
+                    font-weight: 400;
+                }
+            }
+
+            .MyForm {
+                align-items: center;
+                justify-content: center;
+                background-color: transparent;
+                padding: 10px;
+                border-radius: 8px;
+                border: 3px solid rgb(255, 136, 0);
+                padding-top: 20px;
+                width: 40%;
+                margin: auto;
+                transition: transform 0.3s ease, scale 0.3s ease, box-shadow 0.3s ease;
+                backdrop-filter: blur(10px);
+                #contactForm {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+
+                }
+
+                input {
+                    padding: 5px;
+                    outline: none;
+                    height: 35px;
+                    width: auto;
+                    border-radius: 5px ;
+                   border: 2px solid green;
+                    background-color: transparent;
+                    
+  
+                    }
+                    input[required], textarea[required] {
+                       
+                      
+                        border-color: rgb(5, 163, 29);
+                    }
+    
+                    input::placeholder, textarea::placeholder {
+                       
+                        color: white; 
+                    }
+                    input[required]::placeholder {
+                        color: white;
+                    }
+    
+                    input[required] {
+                        border-color: #3DB554;
+                    }
+                }
+
+                textarea {
+                    padding: 8px;
+                    margin-bottom: 16px;
+                    outline: none;
+                    border-radius: 5px;
+                    border: 2px solid green;
+                    background-color: transparent;
+                }
+
+                .formbtn {
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+
+                    text-align: center;
+
+                    button {
+
+                        padding: 15px 10px 15px 10px;
+                        border: none;
+                        border-radius: 30px;
+                        background-color: #3DB554;
+                        box-shadow: 0 0 25px #3DB554;
+
+                        color: white;
+                        font-weight: 500;
+
+                    }
+
+                    button:hover {
+                        box-shadow: 0 0 5px #3DB554, 0 0 50px #3DB554;
+                        transition: 0.2s;
+                    }
+                }
+
+            }
+
+            .MyForm:hover {
+                transform: translateY(-5px) scale(1.05);
+                box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            }
+
+            .MyForm:active {
+                transform: translateY(0) scale(1);
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+
+            p {
+                padding-top: 30px;
+                text-align: center;
+                color: rgb(255, 255, 255);
+                padding-bottom: 30px;
+            }
+
+        }
+    }
+
+
+
+    @media only screen and (max-width: 600px) {
+        .row {
+            .formbtn{
+   button{
+        width: 60% !important;
+        font-size: 7px;
+        padding: 5px 5px 5px 5px !important;
+    }
+            }
+    
+        }
+      }
+
+
+      @media only screen and (max-width: 660px) {
+        .row {
+            .MyForm{
+   input{
+        width: 90% !important;
+        font-size: 10px;
+    }
+    textarea{
+        width: 90% !important;
+        font-size: 10px;
+    }
+            }
+    
+        }
+      }
+
+
+
+
+#appsMoreHelp {
+    width: 100%;
+
+    .container {
+        .row {
+            .more {
+                h5 {
+                    color: #3DB554;
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                }
+
+                p {
+                    color: grey;
+                    display: flex;
+                    flex-direction: column;
+
+                }
+
+                a {
+                    text-decoration: none;
+                    /* Alt çizgiyi kaldır */
+                    color: inherit;
+                    /* Bağlantının rengini miras al */
+                }
+
+                .more a:hover {
+                    text-decoration: underline;
+                    /* Hover durumunda alt çizgiyi ekler */
+                }
+
+            }
+
+            .helps {
+                h5 {
+                    color: #3DB554;
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                }
+
+                p {
+                    color: grey;
+                    display: flex;
+                    flex-direction: column;
+
+                }
+
+                a {
+                    text-decoration: none;
+                    /* Alt çizgiyi kaldır */
+                    color: inherit;
+                    /* Bağlantının rengini miras al */
+                }
+
+                .more a:hover {
+                    text-decoration: underline;
+                    /* Hover durumunda alt çizgiyi ekler */
+                }
+            }
+
+            .icon {
+                padding-top: 30px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                /* İkonları yatayda hizala */
+                gap: 20px;
+
+                i {
+                    padding-bottom: 20px;
+
+                }
+
+                a {
+                    text-decoration: none;
+                    /* Alt çizgiyi kaldır */
+                    color: inherit;
+                    /* Bağlantının rengini miras al */
+                }
+
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    padding-top: 30px;
+    background-color: #F6F7F8;
+ .container{
+    .row{
+        .footerRow ul{
+            list-style: none;
+            /* Liste işaretini kaldır */
+            padding: 0;
+            /* Liste içi boşluğu sıfırla */
+            margin: 0;
+            /* Liste kenar boşluğunu sıfırla */
+            display: flex;
+            /* Liste öğelerini yan yana sırala */
+            gap: 25px;
+        }
+    }
+ }
+}
+
+
+
+@media only screen and (max-width: 660px) {
+    .row {
+        .footerRow{
+ul{
+    li{
+       
+        font-size: 10px;
+    } 
+}
+ }
+
+    }
+  }
+  @media only screen and (max-width: 660px) {
+    .row {
+        .footerAkurlee{
+
+    p{
+       
+        font-size: 11px;
+    } 
+    span{
+        font-size: 11px;
+    }
+}
+ }
+
+    }
+  

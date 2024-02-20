@@ -1,0 +1,3163 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+}
+header .collapseDiv ul {
+  margin: auto;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#regSec {
+  width: 100%;
+  height: 610px;
+  background-image: url(/img/hero-bg.jpg);
+  background-attachment: fixed;
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+  padding-top: 10px;
+}
+#regSec .container .row .regImg {
+  padding-top: 30px;
+  align-items: center;
+  justify-content: center;
+}
+#regSec .container .row .regImg img {
+  max-width: 100%;
+  padding-top: 30px;
+}
+#regSec .container .row #registerForm {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  gap: 15px;
+  border-radius: 8px;
+  border: 3px solid rgb(255, 136, 0);
+  margin: auto;
+  transition: transform 0.3s ease, scale 0.3s ease, box-shadow 0.3s ease;
+  backdrop-filter: blur(10px);
+  color: white;
+}
+#regSec .container .row #registerForm select {
+  outline: none;
+  padding: 8px;
+  border-radius: 5px;
+  border: 2px solid #3DB554;
+  background-color: transparent;
+  color: white;
+}
+#regSec .container .row #registerForm select option {
+  color: black;
+}
+#regSec .container .row #registerForm input {
+  padding: 5px;
+  outline: none;
+  height: 35px;
+  width: auto;
+  border-radius: 5px;
+  border: 2px solid #3DB554;
+  background-color: transparent;
+  color: white;
+  display: flex;
+  gap: 20px;
+}
+#regSec .container .row #registerForm input[required]::placeholder {
+  color: white;
+}
+#regSec .container .row #registerForm input[required] {
+  border-color: #3DB554;
+}
+#regSec .container .row .formbtn {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#regSec .container .row .formbtn button {
+  padding: 10px 15px 10px 15px;
+  border: none;
+  border-radius: 30px;
+  background-color: #3DB554;
+  box-shadow: 0 0 25px #3DB554;
+  color: white;
+  font-weight: 500;
+}
+#regSec .container .row .formbtn button:hover {
+  box-shadow: 0 0 5px #3DB554, 0 0 50px #3DB554;
+  transition: 0.2s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+}
+header .collapseDiv ul {
+  margin: auto;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#modernMeeting {
+  width: 100%;
+  height: 400px;
+  background-image: url(/img/product-bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-size: cover;
+}
+#modernMeeting .container .row .modernMeetingText {
+  padding-top: 30px;
+}
+#modernMeeting .container .row .modernMeetingText h3 {
+  color: white;
+  padding-top: 30px;
+}
+#modernMeeting .container .row .modernMeetingText h5 {
+  color: rgb(189, 189, 189);
+  padding-top: 20px;
+  font-weight: 200;
+}
+#modernMeeting .container .row .modernMeetingText .modernButton {
+  text-align: center;
+  padding-top: 30px;
+}
+#modernMeeting .container .row .modernMeetingText .modernButton button {
+  padding: 10px 15px 10px 15px;
+  border: none;
+  border-radius: 30px;
+  background-color: rgb(255, 136, 0);
+  box-shadow: 0 0 25px rgb(255, 136, 0);
+  color: white;
+  font-weight: 500;
+}
+#modernMeeting .container .row .modernMeetingText .modernButton button:hover {
+  box-shadow: 0 0 5px rgb(255, 136, 0), 0 0 50px rgb(255, 136, 0);
+  transition: 0.2s;
+}
+#modernMeeting .container .row .modernMeetingImg {
+  padding-top: 30px;
+}
+#modernMeeting .container .row .modernMeetingImg img {
+  padding-top: 30px;
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .row .modernMeetingImg img {
+    visibility: hidden !important;
+  }
+}
+@media only screen and (max-width: 345px) {
+  .row .modernMeetingText .modernButton button {
+    visibility: hidden !important;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .row .modernMeetingText .modernButton {
+    visibility: hidden !important;
+  }
+}
+#cloudOnprem {
+  width: 100%;
+}
+#cloudOnprem .container .row .cloudText {
+  text-align: center;
+  padding-top: 30px;
+}
+#cloudOnprem .container .row .cloudText h4 {
+  color: #3DB554;
+  font-weight: 200;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+#cloudOnprem .container .row .cloudLogo {
+  text-align: center;
+}
+#cloudOnprem .container .row .cloudLogo img {
+  max-width: 30%;
+  padding: 20px;
+}
+#cloudOnprem .container .row .cloudLogo h3 {
+  color: #33495C;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+#cloudOnprem .container .row .cloudLogo p {
+  color: #33495C;
+}
+#cloudOnprem .container .row .cloudLogo .divIcon {
+  padding-top: 20px;
+  margin: 20px;
+  justify-content: space-between;
+}
+#cloudOnprem .container .row .buttonDiv {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+#cloudOnprem .container .row .buttonDiv button {
+  padding: 10px 15px 10px 15px;
+  border: none;
+  border-radius: 30px;
+  background-color: #3DB554;
+  box-shadow: 0 0 25px #3DB554;
+  color: white;
+  font-weight: 500;
+}
+#cloudOnprem .container .row .buttonDiv button:hover {
+  box-shadow: 0 0 5px #3DB554, 0 0 50px #3DB554;
+  transition: 0.2s;
+}
+
+#basicSmart {
+  width: 100%;
+  padding-top: 30px;
+}
+#basicSmart .container .row .basicSmartText {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#basicSmart .container .row .basicSmartText h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: rgb(255, 136, 0);
+  font-weight: 200;
+}
+#basicSmart .container .row .topFeatures img {
+  max-width: 100%;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+#basicSmart .container .row .topFeatures h3 {
+  color: #3DB554;
+  padding-bottom: 30px;
+}
+#basicSmart .container .row .topFeatures p {
+  color: grey;
+}
+
+#addHockReservation {
+  width: 100%;
+}
+#addHockReservation .container .row .hockReservation h1 {
+  color: #3DB554;
+}
+#addHockReservation .container .row .hockReservation h3 {
+  color: #3DB554;
+}
+#addHockReservation .container .row .hockReservation p {
+  color: grey;
+}
+#addHockReservation .container .row .hockReservation .hockText {
+  display: flex;
+  gap: 20px;
+}
+#addHockReservation .container .row .hockReservation img {
+  max-width: 100%;
+  padding-bottom: 30px;
+}
+#addHockReservation .container .row .hockReservation h4 {
+  color: rgb(255, 136, 0);
+  font-weight: 300;
+}
+
+#confirmtionAndFullscreen {
+  width: 100%;
+}
+#confirmtionAndFullscreen .container .row .confirmationRow h1 {
+  color: #3DB554;
+}
+#confirmtionAndFullscreen .container .row .confirmationRow h3 {
+  color: #3DB554;
+}
+#confirmtionAndFullscreen .container .row .confirmationRow p {
+  color: grey;
+}
+#confirmtionAndFullscreen .container .row .confirmationRow img {
+  max-width: 100%;
+}
+#confirmtionAndFullscreen .container .row .confirmationRow h4 {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  color: rgb(255, 136, 0);
+  font-weight: 300;
+}
+
+#roomVayfinder {
+  width: 100%;
+  background-color: #F6F7F8;
+  padding-top: 30px;
+}
+#roomVayfinder .container .row .vayfinderImg {
+  padding-top: 30px;
+}
+#roomVayfinder .container .row .vayfinderImg img {
+  max-width: 100%;
+}
+#roomVayfinder .container .row .vayfinderText h3 {
+  color: #3DB554;
+  padding-bottom: 20px;
+}
+#roomVayfinder .container .row .vayfinderText p {
+  color: grey;
+}
+#roomVayfinder .container .row .vayfinderText h6 {
+  padding-top: 10px;
+  color: rgb(255, 136, 0);
+  font-weight: 200;
+  padding-bottom: 10px;
+}
+#roomVayfinder .container .row .vayFinderbtn {
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+#roomVayfinder .container .row .vayFinderbtn button {
+  padding: 10px 15px 10px 15px;
+  border: none;
+  border-radius: 30px;
+  background-color: rgb(255, 136, 0);
+  box-shadow: 0 0 25px rgb(255, 136, 0);
+  color: white;
+  font-weight: 500;
+}
+#roomVayfinder .container .row .vayFinderbtn button:hover {
+  box-shadow: 0 0 5px rgb(255, 136, 0), 0 0 50px rgb(255, 136, 0);
+  transition: 0.2s;
+}
+
+#flexibleTable {
+  width: 100%;
+}
+#flexibleTable .container .row .tableee {
+  padding-top: 30px;
+}
+#flexibleTable .container .row .tableee h1 {
+  text-align: center;
+  color: #3DB554;
+  font-weight: 200;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+#flexibleTable .container .row .tableee p {
+  text-align: center;
+  color: grey;
+  padding-bottom: 30px;
+}
+#flexibleTable .container .row .table-bordered th {
+  color: #3DB554;
+  font-weight: 400;
+}
+
+#formSec {
+  width: 100%;
+  background-image: url(/img/help-bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+#formSec .container .row .formrow {
+  text-align: center;
+  padding: 30px;
+}
+#formSec .container .row .formrow h1 {
+  font-size: 30px;
+  font-weight: 200;
+  color: white;
+}
+#formSec .container .row .formrow h5 {
+  color: white;
+  font-weight: 400;
+}
+#formSec .container .row .MyForm {
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 8px;
+  border: 3px solid rgb(255, 136, 0);
+  padding-top: 20px;
+  width: 40%;
+  margin: auto;
+  transition: transform 0.3s ease, scale 0.3s ease, box-shadow 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+#formSec .container .row .MyForm #contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#formSec .container .row .MyForm input {
+  padding: 5px;
+  outline: none;
+  height: 35px;
+  width: auto;
+  border-radius: 5px;
+  border: 2px solid green;
+  background-color: transparent;
+}
+#formSec .container .row .MyForm input[required], #formSec .container .row .MyForm textarea[required] {
+  border-color: rgb(5, 163, 29);
+}
+#formSec .container .row .MyForm input::placeholder, #formSec .container .row .MyForm textarea::placeholder {
+  color: white;
+}
+#formSec .container .row .MyForm input[required]::placeholder {
+  color: white;
+}
+#formSec .container .row .MyForm input[required] {
+  border-color: #3DB554;
+}
+#formSec .container .row textarea {
+  padding: 8px;
+  margin-bottom: 16px;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid green;
+  background-color: transparent;
+}
+#formSec .container .row .formbtn {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+#formSec .container .row .formbtn button {
+  padding: 15px 10px 15px 10px;
+  border: none;
+  border-radius: 30px;
+  background-color: #3DB554;
+  box-shadow: 0 0 25px #3DB554;
+  color: white;
+  font-weight: 500;
+}
+#formSec .container .row .formbtn button:hover {
+  box-shadow: 0 0 5px #3DB554, 0 0 50px #3DB554;
+  transition: 0.2s;
+}
+#formSec .container .MyForm:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+#formSec .container .MyForm:active {
+  transform: translateY(0) scale(1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#formSec .container p {
+  padding-top: 30px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .row .formbtn button {
+    width: 60% !important;
+    font-size: 7px;
+    padding: 5px 5px 5px 5px !important;
+  }
+}
+@media only screen and (max-width: 660px) {
+  .row .MyForm input {
+    width: 90% !important;
+    font-size: 10px;
+  }
+  .row .MyForm textarea {
+    width: 90% !important;
+    font-size: 10px;
+  }
+}
+#appsMoreHelp {
+  width: 100%;
+}
+#appsMoreHelp .container .row .more h5 {
+  color: #3DB554;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#appsMoreHelp .container .row .more p {
+  color: grey;
+  display: flex;
+  flex-direction: column;
+}
+#appsMoreHelp .container .row .more a {
+  text-decoration: none;
+  /* Alt çizgiyi kaldır */
+  color: inherit;
+  /* Bağlantının rengini miras al */
+}
+#appsMoreHelp .container .row .more .more a:hover {
+  text-decoration: underline;
+  /* Hover durumunda alt çizgiyi ekler */
+}
+#appsMoreHelp .container .row .helps h5 {
+  color: #3DB554;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#appsMoreHelp .container .row .helps p {
+  color: grey;
+  display: flex;
+  flex-direction: column;
+}
+#appsMoreHelp .container .row .helps a {
+  text-decoration: none;
+  /* Alt çizgiyi kaldır */
+  color: inherit;
+  /* Bağlantının rengini miras al */
+}
+#appsMoreHelp .container .row .helps .more a:hover {
+  text-decoration: underline;
+  /* Hover durumunda alt çizgiyi ekler */
+}
+#appsMoreHelp .container .row .icon {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* İkonları yatayda hizala */
+  gap: 20px;
+}
+#appsMoreHelp .container .row .icon i {
+  padding-bottom: 20px;
+}
+#appsMoreHelp .container .row .icon a {
+  text-decoration: none;
+  /* Alt çizgiyi kaldır */
+  color: inherit;
+  /* Bağlantının rengini miras al */
+}
+
+footer {
+  width: 100%;
+  padding-top: 30px;
+  background-color: #F6F7F8;
+}
+footer .container .row .footerRow ul {
+  list-style: none;
+  /* Liste işaretini kaldır */
+  padding: 0;
+  /* Liste içi boşluğu sıfırla */
+  margin: 0;
+  /* Liste kenar boşluğunu sıfırla */
+  display: flex;
+  /* Liste öğelerini yan yana sırala */
+  gap: 25px;
+}
+
+@media only screen and (max-width: 660px) {
+  .row .footerRow ul li {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 660px) {
+  .row .footerAkurlee p {
+    font-size: 11px;
+  }
+  .row .footerAkurlee span {
+    font-size: 11px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+}
+header .collapseDiv ul {
+  margin: auto;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+header .collapseDiv a:hover {
+  color: #3DB554;
+}
+header .collapseDiv .btn {
+  padding-top: 30px;
+  padding: 5px 10px 5px 10px;
+  border: none;
+  border-radius: 30px;
+  background-color: #3DB554;
+  box-shadow: 0 0 5px #3DB554, 0 0 25px #3DB554;
+  color: white;
+  font-weight: 500;
+  font-size: 13px;
+}
+header .collapseDiv .btn button:hover {
+  box-shadow: 0 0 5px #3DB554, 0 0 25px #3DB554, 0 0 50px #3DB554;
+  transition: 0.2s;
+}
+
+#MeetingAndConference {
+  width: 100%;
+  height: 500px;
+  background-image: url(/img/hero-bg.jpg);
+  background-attachment: fixed;
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+  padding: 30px;
+}
+#MeetingAndConference .container .meetingText {
+  padding: 30px;
+  color: white;
+}
+#MeetingAndConference .container .meetingText h1 {
+  font-size: 40px;
+  padding-top: 10px;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+#MeetingAndConference .container .meetingText h4 {
+  color: white;
+}
+#MeetingAndConference .container .meetingText p {
+  font-size: 20px;
+  padding-top: 10px;
+  color: white;
+}
+#MeetingAndConference .container .meetingText .buttonDiv {
+  padding-top: 30px;
+}
+#MeetingAndConference .container .meetingText .buttonDiv button {
+  padding: 15px 30px 15px 30px;
+  border: none;
+  border-radius: 30px;
+  background-color: #3DB554;
+  box-shadow: 0 0 5px #3DB554, 0 0 25px #3DB554;
+  color: white;
+  font-weight: 500;
+}
+#MeetingAndConference .container .meetingText .buttonDiv button:hover {
+  box-shadow: 0 0 5px #3DB554, 0 0 25px #3DB554, 0 0 50px #3DB554;
+  transition: 0.2s;
+}
+#MeetingAndConference .container .meetingText .divIcon {
+  padding-top: 30px;
+  margin-top: 30px;
+  padding-left: 15px;
+  display: flex;
+  gap: 10px;
+}
+#MeetingAndConference .container .meetingImg {
+  padding: 30px;
+}
+#MeetingAndConference .container .meetingImg img {
+  max-width: 100%;
+  transition: transform 0.9s ease;
+}
+
+@media only screen and (max-width: 992px) {
+  .row .meetingImg img {
+    visibility: hidden !important;
+  }
+}
+#MakeYourWorkplace {
+  width: 100%;
+}
+#MakeYourWorkplace .container .row .workplaceText {
+  padding: 30px;
+  text-align: center;
+}
+#MakeYourWorkplace .container .row .workplaceText h5 {
+  color: grey;
+  font-weight: 400;
+  padding-top: 10px;
+}
+#MakeYourWorkplace .container .row .workplaceText h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: rgb(255, 136, 0);
+}
+#MakeYourWorkplace .container .row .workplaceImg {
+  padding: 30px;
+}
+#MakeYourWorkplace .container .row .workplaceImg img {
+  max-width: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+#MakeYourWorkplace .container .row .workplaceImg p {
+  text-align: center;
+  padding-top: 10px;
+}
+#MakeYourWorkplace .container .row .workplaceButton {
+  text-align: center;
+  padding-bottom: 30px;
+}
+#MakeYourWorkplace .container .row .workplaceButton button {
+  align-items: center;
+  justify-content: center;
+  padding: 15px 30px 15px 30px;
+  border: none;
+  border-radius: 30px;
+  background-color: rgb(255, 136, 0);
+  box-shadow: 0 0 5px rgb(255, 136, 0), 0 0 25px rgb(255, 136, 0);
+  color: white;
+  font-weight: 500;
+}
+#MakeYourWorkplace .container .row .workplaceButton button:hover {
+  box-shadow: 0 0 5px rgb(255, 136, 0), 0 0 25px rgb(255, 136, 0), 0 0 50px rgb(255, 136, 0);
+  transition: 0.2s;
+}
+
+#BookYourMeeting {
+  width: 100%;
+  background-color: #F7F8F9;
+}
+#BookYourMeeting .container .row .meetingtext {
+  padding: 30px;
+  text-align: center;
+}
+#BookYourMeeting .container .row .meetingtext h2 {
+  padding-top: 30px;
+  color: rgb(255, 136, 0);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+#BookYourMeeting .container .row .meetingtext h5 {
+  color: grey;
+  font-weight: 400;
+}
+#BookYourMeeting .container .row .meetingRow {
+  text-align: center;
+}
+#BookYourMeeting .container .row .meetingRow h4 {
+  padding-top: 20px;
+  color: rgb(255, 136, 0);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+#BookYourMeeting .container .row .meetingRow p {
+  padding-top: 10px;
+}
+#BookYourMeeting .container .row .meetingRow img {
+  max-width: 40%;
+  transition: transform 0.3s ease-in-out;
+}
+#BookYourMeeting .container .row .meetButton {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#BookYourMeeting .container .row .meetButton button {
+  padding: 15px 30px 15px 30px;
+  border: none;
+  border-radius: 30px;
+  background-color: #3DB554;
+  box-shadow: 0 0 5px #3DB554, 0 0 25px #3DB554;
+  color: white;
+  font-weight: 500;
+}
+#BookYourMeeting .container .row .meetButton button:hover {
+  box-shadow: 0 0 5px #3DB554, 0 0 25px #3DB554, 0 0 50px #3DB554;
+  transition: 0.2s;
+}
+
+@media only screen and (max-width: 600px) {
+  .row .meetingRow h4 {
+    font-size: 20px !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .row .meetingRow img {
+    max-width: 80px !important;
+  }
+}
+#tableSec {
+  width: 100%;
+  background-color: #F7F8F9;
+}
+#tableSec .container .row .tableSecImg {
+  padding-top: 30px;
+}
+#tableSec .container .row .tableSecImg img {
+  max-width: 100%;
+}
+
+#optimizeYourMeeting {
+  width: 100%;
+  background-color: #F7F8F9;
+  padding-bottom: 30px;
+}
+#optimizeYourMeeting .container .row .optimizeText {
+  text-align: center;
+  padding: 30px;
+}
+#optimizeYourMeeting .container .row .optimizeText h2 {
+  padding-top: 20px;
+  color: rgb(255, 136, 0);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+#optimizeYourMeeting .container .row .optimizeText h5 {
+  color: grey;
+  font-weight: 400;
+  padding-top: 10px;
+}
+#optimizeYourMeeting .container .row .optimizeRow {
+  text-align: center;
+}
+#optimizeYourMeeting .container .row .optimizeRow h4 {
+  color: #3DB554;
+  padding-bottom: 20px;
+}
+#optimizeYourMeeting .container .row .optimizeRow p {
+  color: rgb(102, 102, 102);
+}
+#optimizeYourMeeting .container .row .bonsaiImg {
+  padding-top: 30px;
+}
+#optimizeYourMeeting .container .row .bonsaiImg img {
+  padding-top: 30px;
+  max-width: 100%;
+}
+
+#securityAndconnectivity {
+  width: 100%;
+  padding-top: 30px;
+  background-color: #F6F7F8;
+}
+#securityAndconnectivity .container .row .securityText {
+  text-align: center;
+}
+#securityAndconnectivity .container .row .securityText h2 {
+  padding-top: 20px;
+  color: rgb(255, 136, 0);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+#securityAndconnectivity .container .row .securityText h5 {
+  color: grey;
+  padding-top: 10px;
+  font-weight: 400;
+}
+#securityAndconnectivity .container .row .securityImg {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#securityAndconnectivity .container .row .securityImg img {
+  max-width: 30%;
+}
+#securityAndconnectivity .container .row .connectivityImg img {
+  max-width: 100%;
+}
+#securityAndconnectivity .container .row .yourData {
+  padding-top: 30px;
+  margin-top: 30px;
+}
+#securityAndconnectivity .container .row .yourData h3 {
+  color: #3DB554;
+  padding-bottom: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+#securityAndconnectivity .container .row h5 {
+  color: grey;
+  padding-bottom: 30px;
+  font-weight: 300;
+}
+#securityAndconnectivity .container .row .dataDiv {
+  padding-bottom: 20px;
+}
+#securityAndconnectivity .container .row span {
+  font-size: 12px;
+  color: rgb(117, 117, 117);
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 900px) {
+  .row .connectivityImg img {
+    max-width: 60% !important;
+  }
+}
+#FlexibleIntegration {
+  width: 100%;
+  padding-top: 30px;
+}
+#FlexibleIntegration .container .row .flexibleImg {
+  position: relative;
+  overflow: hidden;
+  height: 400px;
+}
+#FlexibleIntegration .container .row .flexibleImg img {
+  max-width: 100%;
+}
+#FlexibleIntegration .container .row .flexibleText h3 {
+  padding-top: 20px;
+  color: rgb(255, 136, 0);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+#FlexibleIntegration .container .row .flexibleText h4 {
+  color: grey;
+  padding-top: 10px;
+  font-weight: 300;
+}
+#FlexibleIntegration .container .row .flexibleText p {
+  padding-top: 30px;
+  color: grey;
+}
+#FlexibleIntegration .container .row .flexibleText span {
+  font-size: 12px;
+  color: rgb(117, 117, 117);
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+#FlexibleIntegration .container .row .flexibleText .logoImg {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  gap: 25px;
+}
+#FlexibleIntegration .container .row .flexibleText .logoImg img {
+  max-width: 20%;
+}
+
+#meetingApp {
+  width: 100%;
+  background-color: #F6F7F8;
+}
+#meetingApp .container .row .appText {
+  text-align: center;
+  padding: 30px;
+}
+#meetingApp .container .row .appText h2 {
+  color: #3DB554;
+  padding-bottom: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+#meetingApp .container .row .appImg {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding-bottom: 30px;
+}
+#meetingApp .container .row .appImg img {
+  max-width: 100%;
+}
+
+#trustedByThousands {
+  width: 100%;
+}
+#trustedByThousands .container .row .trusted {
+  padding-top: 30px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+#trustedByThousands .container .row .trusted h3 {
+  font-weight: 200;
+  padding-top: 20px;
+  color: rgb(255, 136, 0);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+#trustedByThousands .container .row .petrValenta {
+  padding-bottom: 30px;
+  text-align: center;
+}
+#trustedByThousands .container .row .petrValenta .petrValentaImg {
+  padding: 20px;
+}
+#trustedByThousands .container .row .petrValenta .petrValentaImg img {
+  max-width: 30%;
+}
+#trustedByThousands .container .row .petrValenta p {
+  font-weight: 600;
+  margin-top: 5px;
+}
+#trustedByThousands .container .row .petrValenta span {
+  text-align: center;
+  color: grey;
+}
+#trustedByThousands .container .row .IlpoLehtola {
+  padding-bottom: 30px;
+  text-align: center;
+}
+#trustedByThousands .container .row .IlpoLehtola .IlpoLehtolaImg {
+  padding: 20px;
+}
+#trustedByThousands .container .row .IlpoLehtola .IlpoLehtolaImg img {
+  max-width: 30%;
+}
+#trustedByThousands .container .row .IlpoLehtola p {
+  font-weight: 600;
+  margin-top: 5px;
+}
+#trustedByThousands .container .row .IlpoLehtola span {
+  text-align: center;
+  color: grey;
+}
+#trustedByThousands .container .row .ZsoltTompe {
+  padding-bottom: 30px;
+  text-align: center;
+}
+#trustedByThousands .container .row .ZsoltTompe .ZsoltTompeImg {
+  padding: 20px;
+}
+#trustedByThousands .container .row .ZsoltTompe .ZsoltTompeImg img {
+  max-width: 30%;
+}
+#trustedByThousands .container .row .ZsoltTompe p {
+  font-weight: 600;
+  margin-top: 5px;
+}
+#trustedByThousands .container .row .ZsoltTompe span {
+  text-align: center;
+  color: grey;
+}
+
+#AvatarSec {
+  width: 100%;
+}
+#AvatarSec .container .row .avatarIcon img {
+  max-width: 100%;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 400px) {
+  .row .avatarIcon img {
+    max-width: 60% !important;
+  }
+}
+#formSec {
+  width: 100%;
+  background-image: url(/img/help-bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+#formSec .container .row .formrow {
+  text-align: center;
+  padding: 30px;
+}
+#formSec .container .row .formrow h1 {
+  font-size: 30px;
+  font-weight: 200;
+  color: white;
+}
+#formSec .container .row .formrow h5 {
+  color: white;
+  font-weight: 400;
+}
+#formSec .container .row .MyForm {
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 8px;
+  border: 3px solid rgb(255, 136, 0);
+  padding-top: 20px;
+  width: 40%;
+  margin: auto;
+  transition: transform 0.3s ease, scale 0.3s ease, box-shadow 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+#formSec .container .row .MyForm #contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#formSec .container .row .MyForm input {
+  padding: 5px;
+  outline: none;
+  height: 35px;
+  width: auto;
+  border-radius: 5px;
+  border: 2px solid green;
+  background-color: transparent;
+}
+#formSec .container .row .MyForm input[required], #formSec .container .row .MyForm textarea[required] {
+  border-color: rgb(5, 163, 29);
+}
+#formSec .container .row .MyForm input::placeholder, #formSec .container .row .MyForm textarea::placeholder {
+  color: white;
+}
+#formSec .container .row .MyForm input[required]::placeholder {
+  color: white;
+}
+#formSec .container .row .MyForm input[required] {
+  border-color: #3DB554;
+}
+#formSec .container .row textarea {
+  padding: 8px;
+  margin-bottom: 16px;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid green;
+  background-color: transparent;
+}
+#formSec .container .row .formbtn {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+#formSec .container .row .formbtn button {
+  padding: 15px 10px 15px 10px;
+  border: none;
+  border-radius: 30px;
+  background-color: #3DB554;
+  box-shadow: 0 0 25px #3DB554;
+  color: white;
+  font-weight: 500;
+}
+#formSec .container .row .formbtn button:hover {
+  box-shadow: 0 0 5px #3DB554, 0 0 50px #3DB554;
+  transition: 0.2s;
+}
+#formSec .container .MyForm:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+#formSec .container .MyForm:active {
+  transform: translateY(0) scale(1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#formSec .container p {
+  padding-top: 30px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .row .formbtn button {
+    width: 60% !important;
+    font-size: 7px;
+    padding: 5px 5px 5px 5px !important;
+  }
+}
+@media only screen and (max-width: 660px) {
+  .row .MyForm input {
+    width: 90% !important;
+    font-size: 10px;
+  }
+  .row .MyForm textarea {
+    width: 90% !important;
+    font-size: 10px;
+  }
+}
+#appsMoreHelp {
+  width: 100%;
+}
+#appsMoreHelp .container .row .more h5 {
+  color: #3DB554;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#appsMoreHelp .container .row .more p {
+  color: grey;
+  display: flex;
+  flex-direction: column;
+}
+#appsMoreHelp .container .row .more a {
+  text-decoration: none;
+  /* Alt çizgiyi kaldır */
+  color: inherit;
+  /* Bağlantının rengini miras al */
+}
+#appsMoreHelp .container .row .more .more a:hover {
+  text-decoration: underline;
+  /* Hover durumunda alt çizgiyi ekler */
+}
+#appsMoreHelp .container .row .helps h5 {
+  color: #3DB554;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#appsMoreHelp .container .row .helps p {
+  color: grey;
+  display: flex;
+  flex-direction: column;
+}
+#appsMoreHelp .container .row .helps a {
+  text-decoration: none;
+  /* Alt çizgiyi kaldır */
+  color: inherit;
+  /* Bağlantının rengini miras al */
+}
+#appsMoreHelp .container .row .helps .more a:hover {
+  text-decoration: underline;
+  /* Hover durumunda alt çizgiyi ekler */
+}
+#appsMoreHelp .container .row .icon {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+#appsMoreHelp .container .row .icon i {
+  padding-bottom: 20px;
+}
+#appsMoreHelp .container .row .icon a {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer {
+  width: 100%;
+  padding-top: 30px;
+  background-color: #F6F7F8;
+}
+footer .container .row .footerRow ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 25px;
+}
+
+@media only screen and (max-width: 660px) {
+  .row .footerRow ul li {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 660px) {
+  .row .footerAkurlee p {
+    font-size: 11px;
+  }
+  .row .footerAkurlee span {
+    font-size: 11px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+}
+header .collapseDiv ul {
+  margin: auto;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+header .collapseDiv a:hover {
+  color: #3DB554;
+}
+
+#LogSec {
+  width: 100%;
+  height: 600px;
+  background-image: url(/img/hero-bg.jpg);
+  background-attachment: fixed;
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#LogSec .container .row .logImg {
+  padding-top: 30px;
+  align-items: center;
+  justify-content: center;
+}
+#LogSec .container .row .logImg img {
+  max-width: 100%;
+  padding-top: 30px;
+}
+#LogSec .container .row #loginForm {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  gap: 15px;
+  border-radius: 8px;
+  border: 3px solid rgb(255, 136, 0);
+  margin: auto;
+  transition: transform 0.3s ease, scale 0.3s ease, box-shadow 0.3s ease;
+  backdrop-filter: blur(10px);
+  color: white;
+}
+#LogSec .container .row #loginForm img {
+  max-width: 100%;
+}
+#LogSec .container .row #loginForm input {
+  padding: 5px;
+  outline: none;
+  height: 35px;
+  width: auto;
+  border-radius: 5px;
+  border: 2px solid #3DB554;
+  background-color: transparent;
+  color: white;
+  display: flex;
+  gap: 20px;
+}
+#LogSec .container .row #loginForm input[required]::placeholder {
+  color: white;
+}
+#LogSec .container .row #loginForm input[required] {
+  border-color: #3DB554;
+}
+#LogSec .container .row .formbtn {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#LogSec .container .row .formbtn button {
+  padding: 10px 15px 10px 15px;
+  border: none;
+  border-radius: 30px;
+  background-color: #3DB554;
+  box-shadow: 0 0 25px #3DB554;
+  color: white;
+  font-weight: 500;
+}
+#LogSec .container .row .formbtn button:hover {
+  box-shadow: 0 0 5px #3DB554, 0 0 50px #3DB554;
+  transition: 0.2s;
+}
+
+header {
+  width: 100%;
+}
+header .collapseDiv ul {
+  margin: auto;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+header .collapseDiv a:hover {
+  color: #3DB554;
+}
+
+#pricing {
+  width: 100%;
+}
+#pricing .container .row .pricingText {
+  text-align: center;
+  padding-top: 30px;
+}
+#pricing .container .row .pricingText h3 {
+  color: #3DB554;
+  font-weight: 400;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+#pricing .container .row .pricingText p {
+  padding-top: 10px;
+  color: rgb(116, 115, 115);
+}
+#pricing .container .row .pricingRow {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#pricing .container .row .pricingRow img {
+  max-width: 15%;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+#pricing .container .row .pricingRow h4 {
+  color: rgb(74, 74, 74);
+  text-align: center;
+  padding-bottom: 15px;
+}
+#pricing .container .row .pricingRow h3 {
+  color: #3DB554;
+  font-weight: 700;
+  padding-top: 15px;
+}
+#pricing .container .row .pricingRow span {
+  color: grey;
+  font-weight: 700;
+}
+#pricing .container .row .pricingRow h6 {
+  color: grey;
+  font-weight: 700;
+}
+#pricing .container .row .pricingRow code {
+  color: #3DB554;
+}
+#pricing .container .row .pricingRow .pricingBtn {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+#pricing .container .row .pricingRow .pricingBtn button {
+  padding: 10px 10px 10px 10px;
+  border: none;
+  border-radius: 30px;
+  background-color: #3DB554;
+  box-shadow: 0 0 25px #3DB554;
+  font-size: 13px;
+  color: white;
+  font-weight: 500;
+}
+#pricing .container .row .pricingRow .pricingBtn button:hover {
+  box-shadow: 0 0 5px #3DB554, 0 0 50px #3DB554;
+  transition: 0.2s;
+}
+#pricing .container .row .pricingtxt {
+  padding: 20px;
+  border: 1px solid #3DB554;
+}
+#pricing .container .row .pricingtxt .pricingh6 {
+  padding-top: 20px;
+  border: 1px solid #3DB554;
+  padding: 20px;
+  color: grey;
+  text-align: center;
+}
+#pricing .container .row .pricingtxt p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#compare {
+  width: 100%;
+}
+#compare .container .row .compareText {
+  text-align: center;
+  padding-top: 30px;
+}
+#compare .container .row .compareText h1 {
+  color: #3DB554;
+  font-weight: 600;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+#compare .container .row .compareText p {
+  padding-top: 15px;
+  color: grey;
+}
+#compare .container .row .compareText .compareBtn {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+#compare .container .row .compareText .compareBtn button {
+  padding: 10px 10px 10px 10px;
+  border: none;
+  border-radius: 30px;
+  background-color: #3DB554;
+  box-shadow: 0 0 25px #3DB554;
+  font-size: 13px;
+  color: white;
+  font-weight: 500;
+}
+#compare .container .row .compareText .compareBtn button:hover {
+  box-shadow: 0 0 5px #3DB554, 0 0 50px #3DB554;
+  transition: 0.2s;
+}
+
+#roomVayfinder {
+  width: 100%;
+  background-color: #F6F7F8;
+  padding-top: 30px;
+}
+#roomVayfinder .container .row .vayfinderImg {
+  padding-top: 30px;
+}
+#roomVayfinder .container .row .vayfinderImg img {
+  max-width: 100%;
+}
+#roomVayfinder .container .row .vayfinderText h3 {
+  color: #3DB554;
+  padding-bottom: 20px;
+}
+#roomVayfinder .container .row .vayfinderText p {
+  color: grey;
+}
+#roomVayfinder .container .row .vayfinderText h6 {
+  padding-top: 10px;
+  color: rgb(255, 136, 0);
+  font-weight: 200;
+  padding-bottom: 10px;
+}
+#roomVayfinder .container .row .vayFinderbtn {
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+#roomVayfinder .container .row .vayFinderbtn button {
+  padding: 10px 10px 10px 10px;
+  border: none;
+  border-radius: 30px;
+  background-color: rgb(255, 136, 0);
+  box-shadow: 0 0 25px rgb(255, 136, 0);
+  font-size: 13px;
+  color: white;
+  font-weight: 500;
+}
+#roomVayfinder .container .row .vayFinderbtn button:hover {
+  box-shadow: 0 0 5px rgb(255, 136, 0), 0 0 50px rgb(255, 136, 0);
+  transition: 0.2s;
+}
+
+#formSec {
+  width: 100%;
+  background-image: url(/img/help-bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+#formSec .container .row .formrow {
+  text-align: center;
+  padding: 30px;
+}
+#formSec .container .row .formrow h1 {
+  font-size: 30px;
+  font-weight: 200;
+  color: white;
+}
+#formSec .container .row .formrow h5 {
+  color: white;
+  font-weight: 400;
+}
+#formSec .container .row .MyForm {
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 8px;
+  border: 3px solid rgb(255, 136, 0);
+  padding-top: 20px;
+  width: 40%;
+  margin: auto;
+  transition: transform 0.3s ease, scale 0.3s ease, box-shadow 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+#formSec .container .row .MyForm #contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#formSec .container .row .MyForm input {
+  padding: 5px;
+  outline: none;
+  height: 35px;
+  width: auto;
+  border-radius: 5px;
+  border: 2px solid green;
+  background-color: transparent;
+}
+#formSec .container .row .MyForm input[required], #formSec .container .row .MyForm textarea[required] {
+  border-color: rgb(5, 163, 29);
+}
+#formSec .container .row .MyForm input::placeholder, #formSec .container .row .MyForm textarea::placeholder {
+  color: white;
+}
+#formSec .container .row .MyForm input[required]::placeholder {
+  color: white;
+}
+#formSec .container .row .MyForm input[required] {
+  border-color: #3DB554;
+}
+#formSec .container .row textarea {
+  padding: 8px;
+  margin-bottom: 16px;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid green;
+  background-color: transparent;
+}
+#formSec .container .row .formbtn {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+#formSec .container .row .formbtn button {
+  padding: 15px 10px 15px 10px;
+  border: none;
+  border-radius: 30px;
+  background-color: #3DB554;
+  box-shadow: 0 0 25px #3DB554;
+  color: white;
+  font-weight: 500;
+}
+#formSec .container .row .formbtn button:hover {
+  box-shadow: 0 0 5px #3DB554, 0 0 50px #3DB554;
+  transition: 0.2s;
+}
+#formSec .container .MyForm:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+#formSec .container .MyForm:active {
+  transform: translateY(0) scale(1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#formSec .container p {
+  padding-top: 30px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .row .formbtn button {
+    width: 60% !important;
+    font-size: 7px;
+    padding: 5px 5px 5px 5px !important;
+  }
+}
+@media only screen and (max-width: 660px) {
+  .row .MyForm input {
+    width: 90% !important;
+    font-size: 10px;
+  }
+  .row .MyForm textarea {
+    width: 90% !important;
+    font-size: 10px;
+  }
+}
+#appsMoreHelp {
+  width: 100%;
+}
+#appsMoreHelp .container .row .more h5 {
+  color: #3DB554;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#appsMoreHelp .container .row .more p {
+  color: grey;
+  display: flex;
+  flex-direction: column;
+}
+#appsMoreHelp .container .row .more a {
+  text-decoration: none;
+  /* Alt çizgiyi kaldır */
+  color: inherit;
+  /* Bağlantının rengini miras al */
+}
+#appsMoreHelp .container .row .more .more a:hover {
+  text-decoration: underline;
+  /* Hover durumunda alt çizgiyi ekler */
+}
+#appsMoreHelp .container .row .helps h5 {
+  color: #3DB554;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#appsMoreHelp .container .row .helps p {
+  color: grey;
+  display: flex;
+  flex-direction: column;
+}
+#appsMoreHelp .container .row .helps a {
+  text-decoration: none;
+  /* Alt çizgiyi kaldır */
+  color: inherit;
+  /* Bağlantının rengini miras al */
+}
+#appsMoreHelp .container .row .helps .more a:hover {
+  text-decoration: underline;
+  /* Hover durumunda alt çizgiyi ekler */
+}
+#appsMoreHelp .container .row .icon {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* İkonları yatayda hizala */
+  gap: 20px;
+}
+#appsMoreHelp .container .row .icon i {
+  padding-bottom: 20px;
+}
+#appsMoreHelp .container .row .icon a {
+  text-decoration: none;
+  /* Alt çizgiyi kaldır */
+  color: inherit;
+  /* Bağlantının rengini miras al */
+}
+
+footer {
+  width: 100%;
+  padding-top: 30px;
+  background-color: #F6F7F8;
+}
+footer .container .row .footerRow ul {
+  list-style: none;
+  /* Liste işaretini kaldır */
+  padding: 0;
+  /* Liste içi boşluğu sıfırla */
+  margin: 0;
+  /* Liste kenar boşluğunu sıfırla */
+  display: flex;
+  /* Liste öğelerini yan yana sırala */
+  gap: 25px;
+}
+
+@media only screen and (max-width: 660px) {
+  .row .footerRow ul li {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 660px) {
+  .row .footerAkurlee p {
+    font-size: 11px;
+  }
+  .row .footerAkurlee span {
+    font-size: 11px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#accordionFAQ {
+  width: 100%;
+  /* Optional: Style the accordion headers and body */
+  /* Style the image */
+}
+#accordionFAQ .container {
+  background-color: #ffffff; /* Set your desired container background color */
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(39, 38, 38, 0.1); /* Optional: Add a subtle shadow */
+}
+#accordionFAQ .container h3 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+#accordionFAQ .accordion {
+  margin-bottom: 20px;
+}
+#accordionFAQ .accordion-button {
+  background-color: #3DB554; /* Set your desired button background color */
+  color: #ffffff; /* Set your desired button text color */
+}
+#accordionFAQ .accordion-body {
+  background-color: #f8f9fa; /* Set your desired body background color */
+  color: #333333; /* Set your desired body text color */
+}
+#accordionFAQ .img-fluid {
+  border-radius: 8px; /* Optional: Add a border-radius to the image */
+  box-shadow: 0 0 10px rgba(39, 38, 38, 0.1);
+}
+
+.admin-panel {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+.options {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.option {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  color: #666;
+  margin-top: 10px;
+}
+
+button {
+  padding: 15px 10px 15px 10px;
+  border: none;
+  border-radius: 30px;
+  background-color: #3DB554;
+  box-shadow: 0 0 25px #3DB554;
+  color: white;
+  font-weight: 500;
+}
+
+button:hover {
+  box-shadow: 0 0 5px #3DB554, 0 0 50px #3DB554;
+  transition: 0.2s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+}
+header .collapseDiv ul {
+  margin: auto;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+header .collapseDiv a:hover {
+  color: #3DB554;
+}
+
+#ourteam {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  background-color: #F6F7F8;
+  padding-top: 30px;
+}
+#ourteam .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#ourteam .container .row .ourteamtext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+#ourteam .container .row .ourteamtext h3 {
+  font-weight: 700;
+  color: #3DB554;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+#ourteam .container .row .ourteamtext span {
+  color: grey;
+}
+#ourteam .container .row .team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  margin-bottom: 30px;
+  padding-top: 30px;
+}
+#ourteam .container .row .team img {
+  padding: 10px 10px 20px 10px;
+  max-width: 100%;
+  border: 2px solid #3DB554;
+  border-radius: 5px;
+}
+#ourteam .container .row .team p {
+  color: gray;
+  padding-top: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+#ourteam .container .row .icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.team img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.team:hover img {
+  transform: scale(1.1); /* Adjust the scale factor as needed */
+}
+
+#formSec {
+  width: 100%;
+  background-image: url(/img/help-bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+#formSec .container .row .formrow {
+  text-align: center;
+  padding: 30px;
+}
+#formSec .container .row .formrow h1 {
+  font-size: 30px;
+  font-weight: 200;
+  color: white;
+}
+#formSec .container .row .formrow h5 {
+  color: white;
+  font-weight: 400;
+}
+#formSec .container .row .MyForm {
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 8px;
+  border: 3px solid rgb(255, 136, 0);
+  padding-top: 20px;
+  width: 40%;
+  margin: auto;
+  transition: transform 0.3s ease, scale 0.3s ease, box-shadow 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+#formSec .container .row .MyForm #contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#formSec .container .row .MyForm input {
+  padding: 5px;
+  outline: none;
+  height: 35px;
+  width: auto;
+  border-radius: 5px;
+  border: 2px solid green;
+  background-color: transparent;
+}
+#formSec .container .row .MyForm input[required], #formSec .container .row .MyForm textarea[required] {
+  border-color: rgb(5, 163, 29);
+}
+#formSec .container .row .MyForm input::placeholder, #formSec .container .row .MyForm textarea::placeholder {
+  color: white;
+}
+#formSec .container .row .MyForm input[required]::placeholder {
+  color: white;
+}
+#formSec .container .row .MyForm input[required] {
+  border-color: #3DB554;
+}
+#formSec .container .row textarea {
+  padding: 8px;
+  margin-bottom: 16px;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid green;
+  background-color: transparent;
+}
+#formSec .container .row .formbtn {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+#formSec .container .row .formbtn button {
+  padding: 15px 10px 15px 10px;
+  border: none;
+  border-radius: 30px;
+  background-color: #3DB554;
+  box-shadow: 0 0 25px #3DB554;
+  color: white;
+  font-weight: 500;
+}
+#formSec .container .row .formbtn button:hover {
+  box-shadow: 0 0 5px #3DB554, 0 0 50px #3DB554;
+  transition: 0.2s;
+}
+#formSec .container .MyForm:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+#formSec .container .MyForm:active {
+  transform: translateY(0) scale(1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#formSec .container p {
+  padding-top: 30px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .row .formbtn button {
+    width: 60% !important;
+    font-size: 7px;
+    padding: 5px 5px 5px 5px !important;
+  }
+}
+@media only screen and (max-width: 660px) {
+  .row .MyForm input {
+    width: 90% !important;
+    font-size: 10px;
+  }
+  .row .MyForm textarea {
+    width: 90% !important;
+    font-size: 10px;
+  }
+}
+#appsMoreHelp {
+  width: 100%;
+}
+#appsMoreHelp .container .row .more h5 {
+  color: #3DB554;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#appsMoreHelp .container .row .more p {
+  color: grey;
+  display: flex;
+  flex-direction: column;
+}
+#appsMoreHelp .container .row .more a {
+  text-decoration: none;
+  /* Alt çizgiyi kaldır */
+  color: inherit;
+  /* Bağlantının rengini miras al */
+}
+#appsMoreHelp .container .row .more .more a:hover {
+  text-decoration: underline;
+  /* Hover durumunda alt çizgiyi ekler */
+}
+#appsMoreHelp .container .row .helps h5 {
+  color: #3DB554;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#appsMoreHelp .container .row .helps p {
+  color: grey;
+  display: flex;
+  flex-direction: column;
+}
+#appsMoreHelp .container .row .helps a {
+  text-decoration: none;
+  /* Alt çizgiyi kaldır */
+  color: inherit;
+  /* Bağlantının rengini miras al */
+}
+#appsMoreHelp .container .row .helps .more a:hover {
+  text-decoration: underline;
+  /* Hover durumunda alt çizgiyi ekler */
+}
+#appsMoreHelp .container .row .icon {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* İkonları yatayda hizala */
+  gap: 20px;
+}
+#appsMoreHelp .container .row .icon i {
+  padding-bottom: 20px;
+}
+#appsMoreHelp .container .row .icon a {
+  text-decoration: none;
+  /* Alt çizgiyi kaldır */
+  color: inherit;
+  /* Bağlantının rengini miras al */
+}
+
+footer {
+  width: 100%;
+  padding-top: 30px;
+  background-color: #F6F7F8;
+}
+footer .container .row .footerRow ul {
+  list-style: none;
+  /* Liste işaretini kaldır */
+  padding: 0;
+  /* Liste içi boşluğu sıfırla */
+  margin: 0;
+  /* Liste kenar boşluğunu sıfırla */
+  display: flex;
+  /* Liste öğelerini yan yana sırala */
+  gap: 25px;
+}
+
+@media only screen and (max-width: 660px) {
+  .row .footerRow ul li {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 660px) {
+  .row .footerAkurlee p {
+    font-size: 11px;
+  }
+  .row .footerAkurlee span {
+    font-size: 11px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+}
+header .collapseDiv ul {
+  margin: auto;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+header .collapseDiv a:hover {
+  color: #3DB554;
+}
+
+#getInTouch {
+  width: 100%;
+  padding-bottom: 30px;
+}
+#getInTouch .container .row .getintouchText {
+  padding-top: 30px;
+}
+#getInTouch .container .row .getintouchText h1 {
+  color: #3DB554;
+}
+#getInTouch .container .row .getintouchText .getmessage {
+  display: flex;
+  flex-direction: column;
+}
+#getInTouch .container .row .getintouchText .getmessage p {
+  color: #33495C;
+  font-weight: 700;
+  padding-top: 10px;
+}
+#getInTouch .container .row .getintouchText .getmessage span {
+  color: grey;
+  font-weight: 300;
+}
+#getInTouch .container .getintouchImg {
+  padding-top: 30px;
+}
+#getInTouch .container .getintouchImg img {
+  max-width: 100%;
+}
+
+#formSec {
+  width: 100%;
+  background-image: url(/img/help-bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+#formSec .container .row .formrow {
+  text-align: center;
+  padding: 30px;
+}
+#formSec .container .row .formrow h1 {
+  font-size: 30px;
+  font-weight: 200;
+  color: white;
+}
+#formSec .container .row .formrow h5 {
+  color: white;
+  font-weight: 400;
+}
+#formSec .container .row .MyForm {
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 8px;
+  border: 3px solid rgb(255, 136, 0);
+  padding-top: 20px;
+  width: 40%;
+  margin: auto;
+  transition: transform 0.3s ease, scale 0.3s ease, box-shadow 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+#formSec .container .row .MyForm #contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#formSec .container .row .MyForm input {
+  padding: 5px;
+  outline: none;
+  height: 35px;
+  width: auto;
+  border-radius: 5px;
+  border: 2px solid green;
+  background-color: transparent;
+}
+#formSec .container .row .MyForm input[required], #formSec .container .row .MyForm textarea[required] {
+  border-color: rgb(5, 163, 29);
+}
+#formSec .container .row .MyForm input::placeholder, #formSec .container .row .MyForm textarea::placeholder {
+  color: white;
+}
+#formSec .container .row .MyForm input[required]::placeholder {
+  color: white;
+}
+#formSec .container .row .MyForm input[required] {
+  border-color: #3DB554;
+}
+#formSec .container .row textarea {
+  padding: 8px;
+  margin-bottom: 16px;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid green;
+  background-color: transparent;
+}
+#formSec .container .row .formbtn {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+#formSec .container .row .formbtn button {
+  padding: 15px 10px 15px 10px;
+  border: none;
+  border-radius: 30px;
+  background-color: #3DB554;
+  box-shadow: 0 0 25px #3DB554;
+  color: white;
+  font-weight: 500;
+}
+#formSec .container .row .formbtn button:hover {
+  box-shadow: 0 0 5px #3DB554, 0 0 50px #3DB554;
+  transition: 0.2s;
+}
+#formSec .container .MyForm:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+#formSec .container .MyForm:active {
+  transform: translateY(0) scale(1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#formSec .container p {
+  padding-top: 30px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .row .formbtn button {
+    width: 60% !important;
+    font-size: 7px;
+    padding: 5px 5px 5px 5px !important;
+  }
+}
+@media only screen and (max-width: 660px) {
+  .row .MyForm input {
+    width: 90% !important;
+    font-size: 10px;
+  }
+  .row .MyForm textarea {
+    width: 90% !important;
+    font-size: 10px;
+  }
+}
+#appsMoreHelp {
+  width: 100%;
+}
+#appsMoreHelp .container .row .more h5 {
+  color: #3DB554;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#appsMoreHelp .container .row .more p {
+  color: grey;
+  display: flex;
+  flex-direction: column;
+}
+#appsMoreHelp .container .row .more a {
+  text-decoration: none;
+  color: inherit;
+}
+#appsMoreHelp .container .row .more .more a:hover {
+  text-decoration: underline;
+}
+#appsMoreHelp .container .row .helps h5 {
+  color: #3DB554;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#appsMoreHelp .container .row .helps p {
+  color: grey;
+  display: flex;
+  flex-direction: column;
+}
+#appsMoreHelp .container .row .helps a {
+  text-decoration: none;
+  color: inherit;
+}
+#appsMoreHelp .container .row .helps .more a:hover {
+  text-decoration: underline;
+}
+#appsMoreHelp .container .row .icon {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+#appsMoreHelp .container .row .icon i {
+  padding-bottom: 20px;
+}
+#appsMoreHelp .container .row .icon a {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer {
+  width: 100%;
+  padding-top: 30px;
+  background-color: #F6F7F8;
+}
+footer .container .row .footerRow ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 25px;
+}
+
+@media only screen and (max-width: 660px) {
+  .row .footerRow ul li {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 660px) {
+  .row .footerAkurlee p {
+    font-size: 11px;
+  }
+  .row .footerAkurlee span {
+    font-size: 11px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+}
+header .collapseDiv ul {
+  margin: auto;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+header .collapseDiv a:hover {
+  color: #3DB554;
+}
+
+#ourteam {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+  background-color: #F6F7F8;
+  padding-top: 30px;
+  margin-bottom: 0;
+}
+#ourteam .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#ourteam .container .row .ourteamtext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#ourteam .container .row .ourteamtext h3 {
+  font-weight: 700;
+  color: #3DB554;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+#ourteam .container .row .ourteamtext span {
+  color: grey;
+}
+#ourteam .container .row .team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  padding-top: 30px;
+}
+#ourteam .container .row .team img {
+  padding: 10px 10px 20px 10px;
+  max-width: 100%;
+  border: 2px solid #3DB554;
+  border-radius: 5px;
+}
+#ourteam .container .row .team p {
+  color: gray;
+  padding-top: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+#ourteam .container .row .icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.team img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.team:hover img {
+  transform: scale(1.1); /* Adjust the scale factor as needed */
+}
+
+#ourteamImg {
+  width: 100%;
+  background-color: #F6F7F8;
+}
+#ourteamImg .container .row .ourteamTable img {
+  max-width: 100%;
+}
+
+#pricing {
+  width: 100%;
+}
+#pricing .container .row .pricingText {
+  text-align: center;
+  padding-top: 30px;
+}
+#pricing .container .row .pricingText h3 {
+  color: #3DB554;
+  font-weight: 400;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+#pricing .container .row .pricingText p {
+  padding-top: 10px;
+  color: rgb(116, 115, 115);
+}
+#pricing .container .row .pricingRow {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#pricing .container .row .pricingRow img {
+  max-width: 15%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#pricing .container .row .pricingRow h4 {
+  color: rgb(74, 74, 74);
+  text-align: center;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+#pricing .container .row .pricingRow p {
+  color: grey;
+}
+#pricing .container .row .pricingRow .pricingBtn {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+#pricing .container .row .pricingRow .pricingBtn button {
+  padding: 10px 10px 10px 10px;
+  border: none;
+  border-radius: 30px;
+  background-color: #3DB554;
+  box-shadow: 0 0 25px #3DB554;
+  font-size: 13px;
+  color: white;
+  font-weight: 500;
+}
+#pricing .container .row .pricingRow .pricingBtn button:hover {
+  box-shadow: 0 0 5px #3DB554, 0 0 50px #3DB554;
+  transition: 0.2s;
+}
+#pricing .container .row .pricingRow .divIcon {
+  padding-bottom: 20px;
+}
+#pricing .container .row .pricingtxt {
+  padding: 20px;
+  border: 1px solid #3DB554;
+}
+#pricing .container .row .pricingtxt .pricingh6 {
+  padding-top: 20px;
+  border: 1px solid #3DB554;
+  padding: 20px;
+  color: grey;
+  text-align: center;
+}
+#pricing .container .row .pricingtxt p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#appsMoreHelp {
+  width: 100%;
+}
+#appsMoreHelp .container .row .more h5 {
+  color: #3DB554;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#appsMoreHelp .container .row .more p {
+  color: grey;
+  display: flex;
+  flex-direction: column;
+}
+#appsMoreHelp .container .row .more a {
+  text-decoration: none;
+  color: inherit;
+}
+#appsMoreHelp .container .row .more .more a:hover {
+  text-decoration: underline;
+}
+#appsMoreHelp .container .row .helps h5 {
+  color: #3DB554;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#appsMoreHelp .container .row .helps p {
+  color: grey;
+  display: flex;
+  flex-direction: column;
+}
+#appsMoreHelp .container .row .helps a {
+  text-decoration: none;
+  color: inherit;
+}
+#appsMoreHelp .container .row .helps .more a:hover {
+  text-decoration: underline;
+}
+#appsMoreHelp .container .row .icon {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+#appsMoreHelp .container .row .icon i {
+  padding-bottom: 20px;
+}
+#appsMoreHelp .container .row .icon a {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer {
+  width: 100%;
+  padding-top: 30px;
+  background-color: #F6F7F8;
+}
+footer .container .row .footerRow ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 25px;
+}
+
+@media only screen and (max-width: 660px) {
+  .row .footerRow ul li {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 660px) {
+  .row .footerAkurlee p {
+    font-size: 11px;
+  }
+  .row .footerAkurlee span {
+    font-size: 11px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+}
+header .collapseDiv ul {
+  margin: auto;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+header .collapseDiv a:hover {
+  color: #3DB554;
+}
+
+#newsSection {
+  width: 100%;
+}
+#newsSection .container .boxproducts {
+  border: 1px solid #ccc;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(39, 38, 38, 0.1);
+}
+#newsSection .container .boxproducts img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+#newsSection .container .boxproducts h1 {
+  font-size: 16px;
+  margin-top: 20px;
+  color: #3DB554;
+  margin-bottom: 30px;
+}
+#newsSection .container .boxproducts a.btn {
+  padding: 5px 10px 5px 10px;
+  border: none;
+  border-radius: 30px;
+  background-color: #3DB554;
+  box-shadow: 0 0 5px #3DB554, 0 0 25px #3DB554;
+  color: white;
+  font-weight: 500;
+  font-size: 13px;
+}
+#newsSection .container .boxproducts a.btn:hover {
+  box-shadow: 0 0 5px #3DB554, 0 0 25px #3DB554;
+  transition: 0.2s;
+}
+
+#formSec {
+  width: 100%;
+  background-image: url(/img/help-bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+#formSec .container .row .formrow {
+  text-align: center;
+  padding: 30px;
+}
+#formSec .container .row .formrow h1 {
+  font-size: 30px;
+  font-weight: 200;
+  color: white;
+}
+#formSec .container .row .formrow h5 {
+  color: white;
+  font-weight: 400;
+}
+#formSec .container .row .MyForm {
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 8px;
+  border: 3px solid rgb(255, 136, 0);
+  padding-top: 20px;
+  width: 40%;
+  margin: auto;
+  transition: transform 0.3s ease, scale 0.3s ease, box-shadow 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+#formSec .container .row .MyForm #contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#formSec .container .row .MyForm input {
+  padding: 5px;
+  outline: none;
+  height: 35px;
+  width: auto;
+  border-radius: 5px;
+  border: 2px solid green;
+  background-color: transparent;
+}
+#formSec .container .row .MyForm input[required], #formSec .container .row .MyForm textarea[required] {
+  border-color: rgb(5, 163, 29);
+}
+#formSec .container .row .MyForm input::placeholder, #formSec .container .row .MyForm textarea::placeholder {
+  color: white;
+}
+#formSec .container .row .MyForm input[required]::placeholder {
+  color: white;
+}
+#formSec .container .row .MyForm input[required] {
+  border-color: #3DB554;
+}
+#formSec .container .row textarea {
+  padding: 8px;
+  margin-bottom: 16px;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid green;
+  background-color: transparent;
+}
+#formSec .container .row .formbtn {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+#formSec .container .row .formbtn button {
+  padding: 15px 10px 15px 10px;
+  border: none;
+  border-radius: 30px;
+  background-color: #3DB554;
+  box-shadow: 0 0 25px #3DB554;
+  color: white;
+  font-weight: 500;
+}
+#formSec .container .row .formbtn button:hover {
+  box-shadow: 0 0 5px #3DB554, 0 0 50px #3DB554;
+  transition: 0.2s;
+}
+#formSec .container .MyForm:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+#formSec .container .MyForm:active {
+  transform: translateY(0) scale(1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#formSec .container p {
+  padding-top: 30px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .row .formbtn button {
+    width: 60% !important;
+    font-size: 7px;
+    padding: 5px 5px 5px 5px !important;
+  }
+}
+@media only screen and (max-width: 660px) {
+  .row .MyForm input {
+    width: 90% !important;
+    font-size: 10px;
+  }
+  .row .MyForm textarea {
+    width: 90% !important;
+    font-size: 10px;
+  }
+}
+#appsMoreHelp {
+  width: 100%;
+}
+#appsMoreHelp .container .row .more h5 {
+  color: #3DB554;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#appsMoreHelp .container .row .more p {
+  color: grey;
+  display: flex;
+  flex-direction: column;
+}
+#appsMoreHelp .container .row .more a {
+  text-decoration: none;
+  /* Alt çizgiyi kaldır */
+  color: inherit;
+  /* Bağlantının rengini miras al */
+}
+#appsMoreHelp .container .row .more .more a:hover {
+  text-decoration: underline;
+  /* Hover durumunda alt çizgiyi ekler */
+}
+#appsMoreHelp .container .row .helps h5 {
+  color: #3DB554;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#appsMoreHelp .container .row .helps p {
+  color: grey;
+  display: flex;
+  flex-direction: column;
+}
+#appsMoreHelp .container .row .helps a {
+  text-decoration: none;
+  /* Alt çizgiyi kaldır */
+  color: inherit;
+  /* Bağlantının rengini miras al */
+}
+#appsMoreHelp .container .row .helps .more a:hover {
+  text-decoration: underline;
+  /* Hover durumunda alt çizgiyi ekler */
+}
+#appsMoreHelp .container .row .icon {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* İkonları yatayda hizala */
+  gap: 20px;
+}
+#appsMoreHelp .container .row .icon i {
+  padding-bottom: 20px;
+}
+#appsMoreHelp .container .row .icon a {
+  text-decoration: none;
+  /* Alt çizgiyi kaldır */
+  color: inherit;
+  /* Bağlantının rengini miras al */
+}
+
+footer {
+  width: 100%;
+  padding-top: 30px;
+  background-color: #F6F7F8;
+}
+footer .container .row .footerRow ul {
+  list-style: none;
+  /* Liste işaretini kaldır */
+  padding: 0;
+  /* Liste içi boşluğu sıfırla */
+  margin: 0;
+  /* Liste kenar boşluğunu sıfırla */
+  display: flex;
+  /* Liste öğelerini yan yana sırala */
+  gap: 25px;
+}
+
+@media only screen and (max-width: 660px) {
+  .row .footerRow ul li {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 660px) {
+  .row .footerAkurlee p {
+    font-size: 11px;
+  }
+  .row .footerAkurlee span {
+    font-size: 11px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.newsbox {
+  margin-bottom: 20px;
+}
+
+.boxproducts {
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(39, 38, 38, 0.1);
+}
+
+.boxproducts img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.boxproducts h1 {
+  font-size: 20px;
+  margin-top: 20px;
+  color: #3DB554;
+  margin-bottom: 30px;
+}
+
+.boxproducts p {
+  margin-bottom: 20px;
+  color: grey;
+}
+
+.boxproducts button {
+  padding: 10px 10px 10px 10px;
+  border: none;
+  border-radius: 30px;
+  background-color: #3DB554;
+  box-shadow: 0 0 5px #3DB554, 0 0 25px #3DB554;
+  color: white;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.boxproducts button:hover {
+  box-shadow: 0 0 5px #3DB554, 0 0 25px #3DB554;
+  transition: 0.2s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+}
+header .collapseDiv ul {
+  margin: auto;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+header .collapseDiv a:hover {
+  color: #3DB554;
+}
+
+#helpservice {
+  width: 100%;
+}
+#helpservice .container .row .helpserviceText {
+  padding-top: 30px;
+}
+#helpservice .container .row .helpserviceText h1 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+#helpservice .container .row .helpserviceText .p1 {
+  font-weight: 600;
+  color: rgb(54, 53, 53);
+  padding-bottom: 30px;
+}
+#helpservice .container .row .helpserviceText .p2 {
+  color: rgb(151, 148, 148);
+}
+#helpservice .container .row .helpserviceText .p2 code {
+  color: #3DB554;
+}
+#helpservice .container .row .helpserviceText .p3 {
+  color: grey;
+  padding-bottom: 30px;
+}
+#helpservice .container .row .helpserviceText h4 {
+  font-weight: 600;
+  color: rgb(54, 53, 53);
+  padding-bottom: 10px;
+  padding-top: 30px;
+}
+#helpservice .container .row .helpserviceText .p4 {
+  color: grey;
+  padding-bottom: 30px;
+}
+#helpservice .container .row .helpserviceText h5 {
+  font-weight: 600;
+  color: rgb(54, 53, 53);
+}
+#helpservice .container .row .helpserviceText .p5 {
+  color: grey;
+  padding-bottom: 30px;
+}
+#helpservice .container .row .helpserviceText .p5 code {
+  color: #3DB554;
+}
+#helpservice .container .row .helpserviceText .p6 {
+  color: grey;
+  padding-bottom: 30px;
+}
+#helpservice .container .row .helpserviceText .p7 {
+  color: grey;
+  padding-bottom: 10px;
+}
+
+#formSec {
+  width: 100%;
+  background-image: url(/img/help-bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+#formSec .container .row .formrow {
+  text-align: center;
+  padding: 30px;
+}
+#formSec .container .row .formrow h1 {
+  font-size: 30px;
+  font-weight: 200;
+  color: white;
+}
+#formSec .container .row .formrow h5 {
+  color: white;
+  font-weight: 400;
+}
+#formSec .container .row .MyForm {
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 8px;
+  border: 3px solid rgb(255, 136, 0);
+  padding-top: 20px;
+  width: 40%;
+  margin: auto;
+  transition: transform 0.3s ease, scale 0.3s ease, box-shadow 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+#formSec .container .row .MyForm #contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#formSec .container .row .MyForm input {
+  padding: 5px;
+  outline: none;
+  height: 35px;
+  width: auto;
+  border-radius: 5px;
+  border: 2px solid green;
+  background-color: transparent;
+}
+#formSec .container .row .MyForm input[required], #formSec .container .row .MyForm textarea[required] {
+  border-color: rgb(5, 163, 29);
+}
+#formSec .container .row .MyForm input::placeholder, #formSec .container .row .MyForm textarea::placeholder {
+  color: white;
+}
+#formSec .container .row .MyForm input[required]::placeholder {
+  color: white;
+}
+#formSec .container .row .MyForm input[required] {
+  border-color: #3DB554;
+}
+#formSec .container .row textarea {
+  padding: 8px;
+  margin-bottom: 16px;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid green;
+  background-color: transparent;
+}
+#formSec .container .row .formbtn {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+#formSec .container .row .formbtn button {
+  padding: 15px 10px 15px 10px;
+  border: none;
+  border-radius: 30px;
+  background-color: #3DB554;
+  box-shadow: 0 0 25px #3DB554;
+  color: white;
+  font-weight: 500;
+}
+#formSec .container .row .formbtn button:hover {
+  box-shadow: 0 0 5px #3DB554, 0 0 50px #3DB554;
+  transition: 0.2s;
+}
+#formSec .container .MyForm:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+#formSec .container .MyForm:active {
+  transform: translateY(0) scale(1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#formSec .container p {
+  padding-top: 30px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .row .formbtn button {
+    width: 60% !important;
+    font-size: 7px;
+    padding: 5px 5px 5px 5px !important;
+  }
+}
+@media only screen and (max-width: 660px) {
+  .row .MyForm input {
+    width: 90% !important;
+    font-size: 10px;
+  }
+  .row .MyForm textarea {
+    width: 90% !important;
+    font-size: 10px;
+  }
+}
+#appsMoreHelp {
+  width: 100%;
+}
+#appsMoreHelp .container .row .more h5 {
+  color: #3DB554;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#appsMoreHelp .container .row .more p {
+  color: grey;
+  display: flex;
+  flex-direction: column;
+}
+#appsMoreHelp .container .row .more a {
+  text-decoration: none;
+  /* Alt çizgiyi kaldır */
+  color: inherit;
+  /* Bağlantının rengini miras al */
+}
+#appsMoreHelp .container .row .more .more a:hover {
+  text-decoration: underline;
+  /* Hover durumunda alt çizgiyi ekler */
+}
+#appsMoreHelp .container .row .helps h5 {
+  color: #3DB554;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#appsMoreHelp .container .row .helps p {
+  color: grey;
+  display: flex;
+  flex-direction: column;
+}
+#appsMoreHelp .container .row .helps a {
+  text-decoration: none;
+  /* Alt çizgiyi kaldır */
+  color: inherit;
+  /* Bağlantının rengini miras al */
+}
+#appsMoreHelp .container .row .helps .more a:hover {
+  text-decoration: underline;
+  /* Hover durumunda alt çizgiyi ekler */
+}
+#appsMoreHelp .container .row .icon {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+#appsMoreHelp .container .row .icon i {
+  padding-bottom: 20px;
+}
+#appsMoreHelp .container .row .icon a {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer {
+  width: 100%;
+  padding-top: 30px;
+  background-color: #F6F7F8;
+}
+footer .container .row .footerRow ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 25px;
+}
+
+@media only screen and (max-width: 660px) {
+  .row .footerRow ul li {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 660px) {
+  .row .footerAkurlee p {
+    font-size: 11px;
+  }
+  .row .footerAkurlee span {
+    font-size: 11px;
+  }
+}

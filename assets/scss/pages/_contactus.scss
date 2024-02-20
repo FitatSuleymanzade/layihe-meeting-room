@@ -1,0 +1,377 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+
+    .collapseDiv {
+        ul {
+            margin: auto;
+            justify-content: space-between;
+            gap: 10px;
+            font-size: 16px;
+            font-weight: 600;
+
+        }
+
+
+    a:hover{
+        color: #3DB554;
+    }
+    }
+}
+
+
+#getInTouch{
+    width: 100%;
+    padding-bottom: 30px;
+    .container{
+        .row{
+
+        .getintouchText{
+            padding-top: 30px;
+           h1{
+            color: #3DB554;
+            
+           } 
+           .getmessage{
+          display: flex;
+          flex-direction: column;
+          p{
+            color: #33495C;
+            font-weight: 700;
+            padding-top: 10px;
+          }
+          span{
+            color: grey;
+            font-weight: 300;
+          }
+         }
+        
+           }
+        }
+        .getintouchImg{
+            padding-top: 30px;
+            img{
+                max-width: 100%;
+            }
+           
+        }
+        }
+    }
+
+
+
+
+    #formSec {
+        width: 100%;
+        background-image: url(/img/help-bg.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+    
+        .container {
+            .row {
+                .formrow {
+                    text-align: center;
+                    padding: 30px;
+    
+                    h1 {
+                        font-size: 30px;
+                        font-weight: 200;
+                        color: white;
+                    }
+    
+                    h5 {
+                        color: white;
+                        font-weight: 400;
+                    }
+                }
+    
+                .MyForm {
+                    align-items: center;
+                    justify-content: center;
+                    background-color: transparent;
+                    padding: 10px;
+                    border-radius: 8px;
+                    border: 3px solid rgb(255, 136, 0);
+                    padding-top: 20px;
+                    width: 40%;
+                    margin: auto;
+                    transition: transform 0.3s ease, scale 0.3s ease, box-shadow 0.3s ease;
+                    backdrop-filter: blur(10px);
+                    #contactForm {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 20px;
+    
+                    }
+    
+                    input {
+                        padding: 5px;
+                        outline: none;
+                        height: 35px;
+                        width: auto;
+                        border-radius: 5px ;
+                       border: 2px solid green;
+                        background-color: transparent;
+                        
+      
+                        }
+                        input[required], textarea[required] {
+                           
+                          
+                            border-color: rgb(5, 163, 29);
+                        }
+        
+                        input::placeholder, textarea::placeholder {
+                           
+                            color: white; 
+                        }
+                        input[required]::placeholder {
+                            color: white;
+                        }
+        
+                        input[required] {
+                            border-color: #3DB554;
+                        }
+                    }
+    
+                    textarea {
+                        padding: 8px;
+                        margin-bottom: 16px;
+                        outline: none;
+                        border-radius: 5px;
+                        border: 2px solid green;
+                        background-color: transparent;
+                    }
+    
+                    .formbtn {
+                        padding-top: 20px;
+                        padding-bottom: 20px;
+    
+                        text-align: center;
+    
+                        button {
+    
+                            padding: 15px 10px 15px 10px;
+                            border: none;
+                            border-radius: 30px;
+                            background-color: #3DB554;
+                            box-shadow: 0 0 25px #3DB554;
+    
+                            color: white;
+                            font-weight: 500;
+    
+                        }
+    
+                        button:hover {
+                            box-shadow: 0 0 5px #3DB554, 0 0 50px #3DB554;
+                            transition: 0.2s;
+                        }
+                    }
+    
+                }
+    
+                .MyForm:hover {
+                    transform: translateY(-5px) scale(1.05);
+                    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+                }
+    
+                .MyForm:active {
+                    transform: translateY(0) scale(1);
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                }
+    
+                p {
+                    padding-top: 30px;
+                    text-align: center;
+                    color: rgb(255, 255, 255);
+                    padding-bottom: 30px;
+                }
+    
+            }
+        }
+    
+    
+    
+        @media only screen and (max-width: 600px) {
+            .row {
+                .formbtn{
+       button{
+            width: 60% !important;
+            font-size: 7px;
+            padding: 5px 5px 5px 5px !important;
+        }
+                }
+        
+            }
+          }
+    
+    
+          @media only screen and (max-width: 660px) {
+            .row {
+                .MyForm{
+       input{
+            width: 90% !important;
+            font-size: 10px;
+        }
+        textarea{
+            width: 90% !important;
+            font-size: 10px;
+        }
+                }
+        
+            }
+          }
+    
+    
+    
+    
+    #appsMoreHelp {
+        width: 100%;
+    
+        .container {
+            .row {
+                .more {
+                    h5 {
+                        color: #3DB554;
+                        padding-top: 20px;
+                        padding-bottom: 20px;
+                    }
+    
+                    p {
+                        color: grey;
+                        display: flex;
+                        flex-direction: column;
+    
+                    }
+    
+                    a {
+                        text-decoration: none;
+                      
+                        color: inherit;
+                       
+                    }
+    
+                    .more a:hover {
+                        text-decoration: underline;
+                       
+                    }
+    
+                }
+    
+                .helps {
+                    h5 {
+                        color: #3DB554;
+                        padding-top: 20px;
+                        padding-bottom: 20px;
+                    }
+    
+                    p {
+                        color: grey;
+                        display: flex;
+                        flex-direction: column;
+    
+                    }
+    
+                    a {
+                        text-decoration: none;
+                        
+                        color: inherit;
+                       
+                    }
+    
+                    .more a:hover {
+                        text-decoration: underline;
+                       
+                    }
+                }
+    
+                .icon {
+                    padding-top: 30px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                   
+                    gap: 20px;
+    
+                    i {
+                        padding-bottom: 20px;
+    
+                    }
+    
+                    a {
+                        text-decoration: none;
+                       
+                        color: inherit;
+                       
+                    }
+    
+                }
+            }
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    footer{
+        width: 100%;
+        padding-top: 30px;
+        background-color: #F6F7F8;
+     .container{
+        .row{
+            .footerRow ul{
+                list-style: none;
+                
+                padding: 0;
+               
+                margin: 0;
+              
+                display: flex;
+              
+                gap: 25px;
+            }
+        }
+     }
+    }
+    
+    
+    
+    @media only screen and (max-width: 660px) {
+        .row {
+            .footerRow{
+    ul{
+        li{
+           
+            font-size: 10px;
+        } 
+    }
+     }
+    
+        }
+      }
+      @media only screen and (max-width: 660px) {
+        .row {
+            .footerAkurlee{
+    
+        p{
+           
+            font-size: 11px;
+        } 
+        span{
+            font-size: 11px;
+        }
+    }
+     }
+    
+        }
+      

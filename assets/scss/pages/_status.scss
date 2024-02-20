@@ -1,0 +1,55 @@
+
+.admin-panel {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  
+  .option {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  button {
+
+    padding: 15px 10px 15px 10px;
+    border: none;
+    border-radius: 30px;
+    background-color: #3DB554;
+    box-shadow: 0 0 25px #3DB554;
+
+    color: white;
+    font-weight: 500;
+
+}
+
+button:hover {
+    box-shadow: 0 0 5px #3DB554, 0 0 50px #3DB554;
+    transition: 0.2s;
+}
